@@ -9,6 +9,7 @@ export const Header = styled.header`
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 2px 0 var(--color-second-light); 
+    margin-bottom: var(--spacing-medium);
 `;
 
 export const Logo = styled.img.attrs({
