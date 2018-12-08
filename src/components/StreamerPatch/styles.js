@@ -18,12 +18,14 @@ export const Name = styled.dt`
     margin-bottom: 2px;
     padding-top: 10px;
     text-align: left;
+    letter-spacing: 1px;
 `;
 
 export const Twitch = styled.dd`
     color: var(--color-second);
     text-decoration: none;
     text-align: left;
+    letter-spacing: 1px;
     & > a{
         color: inherit;
         text-decoration: inherit;

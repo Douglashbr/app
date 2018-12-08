@@ -1,8 +1,8 @@
 import styled from 'styled-components';
+import ButtonBase from '../../styles/tools/ButtonBase';
 
 const FormPatch = styled.form`
-    padding-left: 5%;
-    padding-right: 5%;
+    ${ButtonBase}
 `;
 
 export default FormPatch;

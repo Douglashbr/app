@@ -5,7 +5,8 @@ body{
 }
 
 input,
-textarea{
+textarea,
+button{
     border: none;
     font-family: inherit
 }
