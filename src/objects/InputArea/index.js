@@ -1,14 +1,13 @@
-import styled from 'styled-components';
-import InputBase from '../../styles/tools/InputBase';
+import React from 'react';
 
-const InputArea = styled.textarea`
-    height: 144px;
-    resize: none;
-    border: 1px solid var(--color-second-light);
-    padding-top: 120px !important;
-    overflow: hidden;
+import {Input, Wrap} from './style'; 
+import MsgError from '../MsgError';
 
-    ${InputBase};
-`; 
+const InputArea = props => (
+    <Wrap>
+        <Input {...props}></Input>
+        <MsgError>{props.error}</MsgError>
+    </Wrap>
+); 
 
 export default InputArea;

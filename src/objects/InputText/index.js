@@ -1,10 +1,13 @@
-import styled from 'styled-components';
+import React from 'react';
 
-import InputBase from '../../styles/tools/InputBase';
+import {Input, Wrap} from './style';
+import MsgError from '../MsgError';
 
-const InputText = styled.input`
-    ${InputBase}
-    margin-bottom: var(--spacing-medium);
-`; 
+const InputText = props => (
+    <Wrap>
+        <Input {...props}/>
+        <MsgError>{props.error}</MsgError>
+    </Wrap>
+);
 
 export default InputText;

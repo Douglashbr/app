@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const Button = styled.input`
     background-color: var(--color-first);
     color: #ffffff;
     height: 54px;
@@ -13,6 +13,7 @@ export const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    cursor: pointer;
 `;
 

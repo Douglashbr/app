@@ -3,10 +3,7 @@ import React, { Fragment } from 'react';
 import HeaderPatch from './components/HeaderPatch';
 import TitlePatch from './objects/TitlePatch';
 import StreamerPatch from './components/StreamerPatch';
-import InputText from './objects/InputText';
-import FormPatch from './objects/FormPatch';
-import InputArea from './objects/InputArea';
-import ButtonPatch from './components/ButtonPatch';
+import SendPatch from './components/SendPatch';
 
 
 const App = () => (
@@ -16,11 +13,7 @@ const App = () => (
 
         <StreamerPatch />
 
-        <FormPatch>
-            <InputText placeholder="Seu e-mail" type="email" />
-            <InputArea placeholder="Mensagem para MarcoBrunoBr" />
-            <ButtonPatch></ButtonPatch>
-        </FormPatch>
+        <SendPatch />
     </Fragment>
 );
 
